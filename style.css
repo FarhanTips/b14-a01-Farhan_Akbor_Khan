@@ -73,19 +73,19 @@ main {
     background: rgba(0, 0, 0, .5);
 }
 
-.content{
+.content {
     position: relative;
     text-align: center;
 }
 
-.content h1{
+.content h1 {
     padding: 120px 0px 22px 0px;
     font-size: 75px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
 }
 
-.content p{
+.content p {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.9);
     margin: 0px 400px 0px 380px;
@@ -93,7 +93,55 @@ main {
 
 }
 
-.content button{
+.content button {
     font-size: 24px;
     padding: 17px 45px 17px 45px;
+}
+
+.speaker-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+}
+
+.speaker-child{
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.speaker-child img {
+    border-radius: 12px 12px 0 0;
+}
+
+.speaker-child span{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color:#2563ebFF;
+    padding: 20px 0px 0px 20px;
+}
+
+.speaker-child h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+    padding: 8px 0px 0px 19px;
+}
+
+.speaker-child p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757FF;
+    padding: 8px 0px 27px 19px;
 }
