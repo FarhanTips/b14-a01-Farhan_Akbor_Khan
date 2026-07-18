@@ -14,12 +14,12 @@ img {
     margin: auto;
 }
 
-nav {
+header {
     border: 1px solid #0000000F;
     /* border: 1px solid red; */
 }
 
-.nav-bar {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
