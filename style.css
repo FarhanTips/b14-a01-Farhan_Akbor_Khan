@@ -32,7 +32,6 @@ nav ul {
     justify-content: space-between;
     list-style: none;
     gap: 30px;
-    /* color: red; */
 
 }
 
@@ -57,28 +56,12 @@ nav ul li a {
     width: 190px; */
 }
 
-
-/* main {
-    /* height: 720px; /* অথবা 500px */
-/*     
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-
-
 main {
     position: relative;
     background-image: url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
     height: 786px;
-    /* margin-bottom: 50px; */
-
-    /* FLEX */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .overlay {
@@ -92,15 +75,25 @@ main {
 
 .content{
     position: relative;
-    /* z-index: 1; */
-
     text-align: center;
-    color: white;
-    /* max-width: 800px; */
 }
 
-main h1{
+.content h1{
     padding: 120px 0px 22px 0px;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.content p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0px 400px 0px 380px;
+    padding-bottom: 325px;
+
+}
+
+.content button{
+    font-size: 24px;
+    padding: 17px 45px 17px 45px;
 }
