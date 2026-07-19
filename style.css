@@ -148,8 +148,10 @@ main {
 
 .card-parent{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* align-items: center; */
+    margin-bottom: 110px;
+    gap: 35px;
 }
 
 
@@ -158,7 +160,7 @@ main {
     text-align: center;
     font-size: 44px;
     font-weight: 700;
-    margin-top: 150px;
+    margin-top: 160px;
     /* border: 2px solid red; */
 }
 
@@ -167,5 +169,45 @@ main {
     font-size: 15px;
     font-weight: 400;
     color:  #575757;
-    padding: 12px 0px 30px 0px;
+    padding: 12px 0px 50px 0px;
+}
+
+
+.card-child1, .card-child2, .card-child3{
+    border: 2px solid red;
+    padding: 0px 30px 30px 28px;
+    width: 280px;
+}
+.card-parent p{ 
+    text-align: left;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 30px 0px 0px 6px;
+} 
+
+.card-parent h3{
+    color: #0d1b2a;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 8px 0px 0px 5px;
+}
+
+.card-parent span{
+    display: block;
+    color:#888888;
+    font-size: 13px;
+    padding: 5px 0px 25px 6px;
+    border-bottom: 1px solid #cac8c8;;
+}
+
+.card-parent ul{
+    padding: 20px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 2.0;
+}
+
+.card-parent li::marker {
+  color: blue;
 }
