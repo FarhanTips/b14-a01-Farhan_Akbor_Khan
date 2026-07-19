@@ -52,8 +52,6 @@ nav ul li a {
     border: none;
     cursor: pointer;
     text-align: center;
-    /* height: 60px;
-    width: 190px; */
 }
 
 main {
@@ -174,10 +172,13 @@ main {
 
 
 .card-child1, .card-child2, .card-child3{
-    border: 2px solid red;
     padding: 0px 30px 30px 28px;
     width: 280px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
+
 .card-parent p{ 
     text-align: left;
     color: #888888;
@@ -209,5 +210,66 @@ main {
 }
 
 .card-parent li::marker {
-  color: blue;
+  color: #2563ebFF;
 }
+
+.card-child2{
+    background-color: #0d1b2aFF;
+    color: white;
+}
+
+.card-child2 p{
+    color: #93c5fd;
+}
+.card-child2 h3{
+    color: #ffffff;
+}
+
+.card-child2 span{
+    color: #ffffff80;
+    /* color:  rgba(255, 255, 255, 0.502); */
+}
+
+.card-child2 li{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card-child2 li::marker {
+  color: #60a5faFF;
+}
+
+.card-child3{
+    background-color: #f8f9fbFF;;
+}
+
+.card-child1 button{
+    background-color:  #ffffffFF;
+    border-radius: 8px;
+    padding: 11px 92px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #2563ebFF;
+    border: 1px solid #2563ebFF;
+}
+
+.card-child2 button{
+    background-color: #2563ebFF;
+    border-radius: 8px;
+    padding: 11px 114px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #ffffffFF;
+}
+
+.card-child3 button{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 11px 100px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #0d1b2aFF;
+    border:1px solid #0d1b2aFF;
+}
+
+
+
