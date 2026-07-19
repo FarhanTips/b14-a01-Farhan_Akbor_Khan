@@ -154,7 +154,7 @@ main {
 
 
 
-.pricing h2 {
+.pricing h2, .career h2 {
     text-align: center;
     font-size: 44px;
     font-weight: 700;
@@ -162,7 +162,7 @@ main {
     /* border: 2px solid red; */
 }
 
-.pricing p{
+.pricing p, .career p, .career-card-child p{
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -270,6 +270,43 @@ main {
     color:  #0d1b2aFF;
     border:1px solid #0d1b2aFF;
 }
+
+
+.career{
+    text-align:center;
+}
+
+.career-card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.career-card-child{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding:30px 20px 0px 20px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.career-card-child:hover{
+    transform:translateY(-8px);
+}
+
+.career-card-child i{
+    font-size:45px;
+}
+
+.career-card-child h3{
+    margin: 20px 0 10px 0px;
+}
+
+.career button{
+    margin:50px;
+    background-color: #2563ebFF;
+    font-size: 15px;
+}
+
 
 
 
