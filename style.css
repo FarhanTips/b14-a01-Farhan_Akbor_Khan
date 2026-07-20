@@ -285,15 +285,20 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.15);
     padding:30px 20px 0px 20px;
     border-radius:12px;
+
+    /* Took help from AI. And, using AI is permissible in this section. */
     transition:.3s;
 }
 
+
 .career-card-child:hover{
     transform:translateY(-8px);
+    /* Took help from AI. And, using AI is permissible in this section. */
+    
 }
 
 .career-card-child span{
-    font-size:45px;
+    font-size: 45px;
 }
 
 .career-card-child h3{
@@ -301,7 +306,7 @@ main {
 }
 
 .career button{
-    margin:50px;
+    margin: 50px;
     background-color: #2563ebFF;
     font-size: 15px;
 }
@@ -309,14 +314,14 @@ main {
 
 footer{
     margin-top: 140px;
-    padding:40px 0;
+    padding: 40px 0;
     background:#124256;
 }
 
 .footer-top{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
 .social-icons{
@@ -327,7 +332,7 @@ footer{
 .social-icons i{
     color: white;
     font-size:22px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 footer hr{
@@ -339,7 +344,19 @@ footer hr{
 footer p{
     text-align: center;
     color:rgba(255,255,255,0.7);
-    font-size:14px;
-    padding-top: 05px;
+    font-size: 14px;
+}
+
+.policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.policy a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
 }
 
